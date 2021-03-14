@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Javascript Quiz</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="centered">
+      <!-- Welcome screen -->
+      <div id="welcome-screen">
+        <h1>Welcome to the quiz</h1>
+        <h2>Rules</h2>
+        <ul>
+          <li>Gain points for right answer</li>
+          <li>Lose points for wrong answer</li>
+        </ul>
+        <div>
+          <button id="start-btn">Begin Quiz</button>
+        </div>
+      </div>
+
+      <!-- Question screen -->
+      <div id="question-screen" class="hidden">
+        <h3 id="timer-readout">TIME</h3>
+        <h2 id="question-text">Question will appear here</h2>
+        <div id="answers-list" class="flex-column">
+          <!-- answers will appear here -->
+          <!-- <li>Lorem, ipsum dolor.</li>
+          <li>Lorem, ipsum dolor.</li>
+          <li>Lorem, ipsum dolor.</li>
+          <li>Lorem, ipsum dolor.</li> -->
+        </div>
+      </div>
+    </main>
+    <script src="./script.js" async defer></script>
+  </body>
+</html>
